@@ -18,19 +18,23 @@ constructor(){
     this.setState({projects: [
       {
         title: 'Business Website',
-        category: 'Web Design'
+        category: 'Web Design',
+        progress: 'New'
       },
       {
         title: 'Social App',
-        category: 'Mobile Development'
+        category: 'Mobile Development',
+        progress: 'Finished'
       },
       {
         title: 'Ecommerce Shopping Cart',
-        category: 'Web Development'
+        category: 'Web Development',
+        progress: 'In Progress'
       },
       {
         title: 'Asimo',
-        category: 'Robotics'
+        category: 'Robotics',
+        progress: 'Finished'
       }
     ]});
   }
